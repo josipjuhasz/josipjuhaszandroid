@@ -1,0 +1,2 @@
+rootProject.name='Josip Juhasz android'
+include ':app'

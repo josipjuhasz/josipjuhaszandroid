@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relative1"
+    tools:context=".MainActivity"
+    >
+
+    <RelativeLayout
+        android:id="@+id/rlamumu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+
+        >
+        <ImageView
+            android:id="@+id/iVamumu"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_margin="5dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/amumu"
+            />
+        <TextView
+            android:id="@+id/tvAmumu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_toRightOf="@id/iVamumu"
+            android:textStyle="bold"
+            android:text="Amumu"
+            />
+        <TextView
+            android:id="@+id/tvAmumuDesc"
+            android:layout_toEndOf="@id/iVamumu"
+            android:layout_below="@id/tvAmumu"
+            android:text="The Sad Mummy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:id="@+id/tvAmumu1"
+            android:layout_toEndOf="@id/iVamumu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvAmumuDesc"
+            android:text="Position: Jungle"
+            android:textStyle="italic" />
+        <TextView
+            android:id="@+id/tvAmumu2"
+            android:layout_toEndOf="@id/iVamumu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvAmumu1"
+            android:text="Role: Tank"
+            android:textStyle="italic" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlLee"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rlamumu"
+
+        >
+        <ImageView
+            android:id="@+id/ivLee"
+            android:layout_margin="5dp"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:src="@drawable/lee"
+            />
+        <TextView
+            android:id="@+id/tvLee"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/ivLee"
+            android:text="Lee Sin"/>
+        <TextView
+            android:id="@+id/tvLeeDesc"
+            android:layout_toEndOf="@id/ivLee"
+            android:layout_below="@id/tvLee"
+            android:text="The Blind Monk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tvLee1"
+            android:layout_toEndOf="@id/ivLee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvLeeDesc"
+            android:text="Position: Jungle"
+            android:textStyle="italic" />
+        <TextView
+            android:id="@+id/tvLee2"
+            android:layout_toEndOf="@id/ivLee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvLee1"
+            android:text="Role: Fighter, Assassin"
+            android:textStyle="italic" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlPanth"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rlLee"
+
+        >
+        <ImageView
+            android:id="@+id/ivPanth"
+            android:layout_margin="5dp"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:src="@drawable/pantheon"
+            />
+        <TextView
+            android:id="@+id/tvPanth"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/ivPanth"
+            android:text="Pantheon"/>
+        <TextView
+            android:id="@+id/tvPanthDesc"
+            android:layout_toEndOf="@id/ivPanth"
+            android:layout_below="@id/tvPanth"
+            android:text="The Unbreakable Spear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tvPanth1"
+            android:layout_toEndOf="@id/ivPanth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvPanthDesc"
+            android:text="Position: Top"
+            android:textStyle="italic" />
+        <TextView
+            android:id="@+id/tvPanth2"
+            android:layout_toEndOf="@id/ivPanth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvPanth1"
+            android:text="Role: Fighter"
+            android:textStyle="italic" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlNami"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rlPanth"
+        >
+        <ImageView
+            android:id="@+id/ivNami"
+            android:layout_margin="5dp"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:src="@drawable/nami"
+            />
+        <TextView
+            android:id="@+id/tvNami"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/ivNami"
+            android:text="Nami"/>
+        <TextView
+            android:id="@+id/tvNamiDesc"
+            android:layout_toEndOf="@id/ivNami"
+            android:layout_below="@id/tvNami"
+            android:text="The Tidecaller"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tvNami1"
+            android:layout_toEndOf="@id/ivNami"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvNamiDesc"
+            android:text="Position: Support"
+            android:textStyle="italic" />
+        <TextView
+            android:id="@+id/tvNami2"
+            android:layout_toEndOf="@id/ivNami"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvNami1"
+            android:text="Role: Mage"
+            android:textStyle="italic" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btnAllChampions"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="All champions"
+        android:layout_below="@id/rlNami"
+        android:onClick="OnClickAllChamps"/>
+    <Button
+        android:id="@+id/btnMostPlayed"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Most played"
+        android:layout_below="@id/btnAllChampions"
+        android:onClick="OnClickMostPlayed"/>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="400dp"
+        android:src="@drawable/logolige"
+        >
+
+    </ImageView>
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+        android:id="@+id/parse">
+
+    </TextView>
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

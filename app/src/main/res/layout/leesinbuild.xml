@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".leesinbuild"
+    android:background="@drawable/back2"
+    android:padding="16dp"
+
+    >
+
+    <TextView
+        android:id="@+id/titleTv19"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:layout_marginLeft="-282dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="18dp"
+        android:text="Start items:"
+        android:textColor="#000"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageview13"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="278dp"
+        android:src="@drawable/edge" />
+
+    <ImageView
+        android:id="@+id/imageview14"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="360dp"
+        android:src="@drawable/redemption" />
+
+    <ImageView
+        android:id="@+id/imageview15"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="360dp"
+        android:src="@drawable/twin" />
+
+    <ImageView
+        android:id="@+id/imageview16"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="360dp"
+        android:src="@drawable/grail" />
+
+    <ImageView
+        android:id="@+id/imageview18"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="360dp"
+        android:src="@drawable/morelo" />
+
+    <ImageView
+        android:id="@+id/imageview17"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="360dp"
+        android:src="@drawable/locket" />
+
+    <ImageView
+        android:id="@+id/imageview12"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="278dp"
+        android:src="@drawable/potion" />
+
+    <ImageView
+        android:id="@+id/imageview11"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="470dp"
+        android:src="@drawable/smite" />
+
+    <ImageView
+        android:id="@+id/imageview20"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="112dp"
+        android:src="@drawable/bardq" />
+
+    <ImageView
+        android:id="@+id/imageview19"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="470dp"
+        android:src="@drawable/flash" />
+
+    <TextView
+        android:id="@+id/titleTv12"
+        android:layout_width="41dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="322dp"
+        android:layout_marginLeft="-282dp"
+        android:layout_marginTop="179dp"
+        android:layout_marginEnd="59dp"
+        android:text="Q"
+        android:textColor="#000"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Q"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="170dp"
+
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="225dp"
+        android:layout_marginTop="135dp"
+        android:text=">"
+        android:textColor="@android:color/black"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="135dp"
+        android:text=">"
+        android:textColor="@android:color/black"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="W"
+        android:textStyle="bold"
+        android:layout_marginStart="165dp"
+        android:layout_marginTop="170dp"
+        android:textColor="@android:color/black"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E"
+        android:textStyle="bold"
+        android:layout_marginStart="285dp"
+        android:layout_marginTop="170dp"
+        android:textColor="@android:color/black"
+
+        />
+    <ImageView
+        android:id="@+id/imageview10"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="112dp"
+        android:src="@drawable/barde" />
+
+    <ImageView
+        android:id="@+id/imageview9"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="112dp"
+        android:src="@drawable/bardw" />
+
+    <TextView
+        android:id="@+id/titleTv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="-282dp"
+        android:layout_marginTop="-1dp"
+        android:text="Skill order and item build"
+        android:textColor="#000"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="278dp"
+        android:src="@drawable/potion" />
+
+    <TextView
+        android:id="@+id/titleTv16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="-282dp"
+        android:layout_marginTop="420dp"
+        android:text="Summoner spells"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/titleTv21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="-282dp"
+        android:layout_marginTop="210dp"
+        android:text="Build order"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/titleTv20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:layout_marginLeft="-282dp"
+        android:layout_marginTop="330dp"
+        android:layout_marginEnd="18dp"
+        android:text="Full build:"
+        android:textColor="#000"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/titleTv17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="-282dp"
+        android:layout_marginTop="48dp"
+        android:text="Skill order"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

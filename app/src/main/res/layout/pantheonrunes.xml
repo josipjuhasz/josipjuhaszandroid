@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pantheonrunes"
+    android:background="@drawable/back2"
+    android:padding="16dp"
+
+
+    >
+
+    <ImageView
+        android:id="@+id/imageview2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/p14" />
+
+    <ImageView
+        android:id="@+id/imageview6"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="230dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/d00" />
+
+    <ImageView
+        android:id="@+id/imageview26"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="330dp"
+        android:src="@drawable/po11" />
+
+    <ImageView
+        android:id="@+id/imageview27"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="380dp"
+        android:src="@drawable/po21" />
+
+    <ImageView
+        android:id="@+id/imageview28"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="430dp"
+        android:src="@drawable/po32" />
+
+    <ImageView
+        android:id="@+id/imageview7"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="240dp"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/d22" />
+
+    <ImageView
+        android:id="@+id/imageview3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="240dp"
+        android:src="@drawable/p22" />
+
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/p00" />
+
+    <ImageView
+        android:id="@+id/imageview5"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="420dp"
+        android:src="@drawable/p41" />
+
+    <ImageView
+        android:id="@+id/imageview4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="330dp"
+        android:src="@drawable/p32" />
+
+    <ImageView
+        android:id="@+id/imageview8"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="240dp"
+        android:layout_marginTop="240dp"
+        android:src="@drawable/d41" />
+
+    <TextView
+        android:id="@+id/titleTv"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="-200dp"
+        android:layout_marginTop="10dp"
+        android:text="Runes"
+        android:textColor="@android:color/black"
+        android:textSize="22dp"
+        android:textStyle="italic" />
+
+</RelativeLayout>

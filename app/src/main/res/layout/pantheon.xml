@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".FragmentClass"
+    android:background="#D6D6D6"
+    android:id="@+id/pantheonh">
+
+    <ImageView
+        android:id="@+id/ivPanth"
+        android:layout_width="250dp"
+        android:layout_height="270dp"
+        android:src="@drawable/pantheon"
+        android:layout_margin="0dp"
+        android:onClick="OnClickDisplayToastPantheon"/>
+    <TextView
+        android:id="@+id/tvRogerPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The Unbreakable Spear"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/btnToRunes"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:text="Runes"
+            android:onClick="OnClickPantheonRunes"
+            />
+        <Button
+        android:id="@+id/highp"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="150dp"
+        android:text="Champion Spotlight"
+            android:onClick="OnClickPantheonH"
+        />
+        <Button
+            android:id="@+id/nesp"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="150dp"
+            android:text="Home"
+            android:onClick="OnClickHome"
+            />
+
+        <Button
+            android:id="@+id/btnToBuild"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="200dp"
+            android:text="Builds"
+            android:onClick="OnClickPantheonBuild"
+            />
+
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".FragmentClass"
+    android:background="#D6D6D6"
+    android:id="@+id/leesinh">
+
+    <ImageView
+        android:id="@+id/ivLeeSin"
+        android:layout_width="250dp"
+        android:layout_height="270dp"
+        android:src="@drawable/lee"
+        android:layout_margin="0dp"
+        android:onClick="OnClickDisplayToastLee"/>
+    <TextView
+        android:id="@+id/tvRogerPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The Blink Monk"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/LeebtnToRunes"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:text="Runes"
+            android:onClick="OnClickLeeSinRunes"
+            />
+
+        <Button
+            android:id="@+id/btnToBuild"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="200dp"
+            android:text="Builds"
+            android:onClick="OnClickLeeSinBuild"/>
+        <Button
+            android:id="@+id/highl"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="150dp"
+            android:text="Champion Spotlight"
+            android:onClick="OnClickLeeH"
+            />
+        <Button
+            android:id="@+id/nesl"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="150dp"
+            android:text="Home"
+            android:onClick="OnClickHome"
+            />
+
+    </RelativeLayout>
+</LinearLayout>
